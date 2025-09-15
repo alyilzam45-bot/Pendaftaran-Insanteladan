@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendaftaran SMP Insan Teladan</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #006400;
+      text-align: center;
+      color: white;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('1670306(0).jpg') no-repeat center center fixed;
+      background-size: cover;
+      z-index: -2;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 100, 0, 0.5);
+      z-index: -1;
+    }
+
+    header img {
+      height: 100px;
+      margin: 10px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    .motto {
+      margin: 20px auto;
+      max-width: 900px;
+      font-size: 1.2em;
+      line-height: 1.8;
+      background: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 15px;
+      animation: fadeInUp 2s ease;
+    }
+
+    .motto span {
+      display: inline-block;
+      margin: 5px 0;
+      animation: pulse 3s infinite;
+    }
+
+    .forms {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      margin: 30px auto;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .form-button, .wa-button {
+      display: inline-block;
+      background-color: #ffdf5e;
+      color: #006400;
+      font-size: 1.1em;
+      font-weight: bold;
+      padding: 15px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .form-button:hover, .wa-button:hover {
+      background-color: #ffd700;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    }
+
+    .contact {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    footer {
+      margin: 30px 0;
+      font-size: 1em;
+      background: rgba(0,0,0,0.7);
+      padding: 15px;
+      border-radius: 10px;
+      display: inline-block;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    footer a {
+      color: #ffdf5e;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: #ffd700;
+      text-decoration: underline;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeInUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.8; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo%20Dinas.png" alt="Tut Wuri Handayani">
+    <img src="LOGO_INSAN-removebg-preview.png" alt="Logo Insan Teladan">
+    <h1>Selamat Datang di Yayasan Insan Teladan</h1>
+  </header>
+
+  <div class="motto">
+    <p><strong>Bersama kami, tidak hanya cerdas secara akademik, tapi juga berakhlak Qur’ani, meneladani Rasulullah, dan menjaga kearifan Islam Nusantara. 📖</strong></p>
+    <p>
+      <span>🌿 Sekolah Berbasis Al-Qur’an</span><br>
+      <span>🕌 Mewarisi Akhlak Rasulullah</span><br>
+      <span>🌸 Merawat Tradisi Islam Nusantara</span>
+    </p>
+    <p><em>Mari tumbuh menjadi generasi teladan bersama SMP Insan Teladan!</em></p>
+  </div>
+
+  <div class="forms">
+    <!-- Tombol Pendaftaran -->
+    <a class="form-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdXlcQh7xmZGeXfODmKu-QZlPQIXu-fvklF70rLxjEEj4i3YA/viewform" target="_blank">
+      Klik Pendaftaran SMP Insan Teladan
+    </a>
+    <a class="form-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeLcYbJXrVkuUYGRjOrYC3EwqqXVRfg7GYlStFUqBKSFY6iLQ/viewform" target="_blank">
+      Klik Pendaftaran SD Insan Teladan
+    </a>
+    <a class="form-button" href="https://docs.google.com/forms/d/e/1FAIpQLSesKZGAXAvToH4bNS2l5rRzcqn_fU60vLDPd7IxHFLLfePwVA/viewform" target="_blank">
+      Klik Pendaftaran TK Insan Teladan
+    </a>
+
+    <!-- Tombol WhatsApp -->
+    <div class="contact">
+      <a class="wa-button" href="https://wa.me/62895399541307" target="_blank">
+        Hubungi SMP: +62 895-3995-41307 (Bu Istiqomah)
+      </a>
+      <a class="wa-button" href="https://wa.me/6285640660843" target="_blank">
+        Hubungi SD: +62 856-4066-0843 (Bu Siti Ruqoyyah)
+      </a>
+      <a class="wa-button" href="https://wa.me/6285701050302" target="_blank">
+        Hubungi TK: +62 857-0105-0302 (Bu Diah Ayu Puspitasri)
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    📍 Alamat: <a href="https://goo.gl/maps/MTX7t6nCGeD344KVO" target="_blank">Jl Daleman Raya No.58 Batursari, Mranggen, Demak</a>
+  </footer>
+</body>
+</html>
